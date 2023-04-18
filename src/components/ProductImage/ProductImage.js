@@ -6,7 +6,7 @@ const ProductImage = ({ name, currentColor, title }) => {
       <img
         className={styles.image}
         alt={title}
-        src={`${process.env.PUBLIC_URL}/images/products/shirt-${name}--${currentColor}.jpg`}
+        src={`${process.env.REACT_APP_PUBLIC_URL}/images/products/shirt-${name}--${currentColor}.jpg`}
       />
     </div>
   );

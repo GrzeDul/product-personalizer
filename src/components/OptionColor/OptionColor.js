@@ -15,6 +15,7 @@ const OptionColor = ({ setCurrentColor, currentColor, colors }) => {
             <button
               type='button'
               className={clsx(
+                'favorite',
                 styles[`color${prepareColorClassName(color)}`],
                 currentColor === color && styles.active
               )}
